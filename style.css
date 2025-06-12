@@ -1,0 +1,73 @@
+body{
+    font-family: Roboto;
+}
+
+header button{
+    width: 256px;
+    height: 36px;
+    background-color: rgba(252, 0, 74, 1);
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+}
+
+.img1{
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+section h1{
+    font-size: 32.48px;
+    margin-top: 70px;
+}
+
+.card{
+    width: 235px;
+    height: 391px;
+    box-shadow: 0px 4px 6px -4px rgba(190, 85, 85, 0.842);
+    box-shadow: 0px 10px 15px -3px rgba(190, 85, 85, 0.842);
+    border-radius: 15px;
+}
+
+.card p,h4{
+    margin-left: 19px;
+}
+
+.card p{
+    color: rgba(252, 0, 74, 1);
+}
+
+.img2{
+    display: none;
+}
+
+    
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
